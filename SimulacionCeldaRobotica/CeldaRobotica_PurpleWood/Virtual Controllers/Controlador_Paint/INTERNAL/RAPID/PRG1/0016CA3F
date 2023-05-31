@@ -1,0 +1,20 @@
+MODULE pnttipclean
+    PROC TipCleanPreMain()
+        AppCleanRun;
+        TipCleanRun;
+        TipCleanRun;
+        AppCleanRun;
+    ENDPROC
+    PROC TipCleanPostMain()
+        AppCleanRun;
+        TipCleanRun;
+        TipCleanRun;
+        AppCleanRun;
+    ENDPROC
+    PROC TipCleanRun()
+
+    ENDPROC
+    PROC AppCleanRun()
+
+    ENDPROC
+ENDMODULE

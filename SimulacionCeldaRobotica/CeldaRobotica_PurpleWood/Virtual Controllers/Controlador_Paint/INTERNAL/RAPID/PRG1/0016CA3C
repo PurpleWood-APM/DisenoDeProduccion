@@ -1,0 +1,20 @@
+MODULE pntloop
+    LOCAL VAR signaldo doJobCompAlias;
+    PROC main()
+            ! GATO
+            ! MESA
+            ! ESTANTE
+        CallInitCustMain;
+        ClearCurrentJob;
+        Reset doJobCompAlias;
+        PulseDO\High\PLength:=2.0,doJobCompAlias;
+        ClearCurrentJob;
+        WaitTime 0.2;
+    ENDPROC
+    LOCAL PROC ClearCurrentJob()
+
+    ENDPROC
+    PROC CallInitCustMain()
+
+    ENDPROC
+ENDMODULE

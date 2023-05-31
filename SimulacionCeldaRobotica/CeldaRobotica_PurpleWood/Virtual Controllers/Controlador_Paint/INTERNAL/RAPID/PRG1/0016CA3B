@@ -1,0 +1,8 @@
+MODULE posmsg
+    PROC PostMainPosMsg()
+
+    ENDPROC
+    PROC PreMainPosMsg()
+
+    ENDPROC
+ENDMODULE

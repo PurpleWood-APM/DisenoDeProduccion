@@ -1,0 +1,5 @@
+MODULE pntprogmap
+    PROC SetProgramModule()
+
+    ENDPROC
+ENDMODULE

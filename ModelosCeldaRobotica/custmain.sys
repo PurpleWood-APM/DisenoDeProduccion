@@ -1,0 +1,44 @@
+module custmain(sysmodule)
+
+
+
+   proc InitCustMain()
+      !
+      ! Insert RAPID code for start at main here...
+      !
+   endproc
+
+
+
+   proc PreMainCustom()
+      FOR i FROM 1 TO 3
+            ! GATO
+            Set DO_Gato;
+            WaitTime 2;
+            Reset DO_Gato;
+        ENDFOR
+        FOR i FROM 1 TO 2
+            ! MESA
+            Set DO_Mesa;
+            WaitTime 2;
+            Reset DO_Mesa;
+        ENDFOR
+        FOR i FROM 1 TO 4
+            ! ESTANTE
+            Set DO_Estante;
+            WaitTime 2;
+            Reset DO_Estante;
+        ENDFOR
+   endproc
+
+
+
+   proc PostMainCustom()
+      !
+      ! This will be executed after a paint program...
+      !
+   endproc
+
+
+
+endmodule

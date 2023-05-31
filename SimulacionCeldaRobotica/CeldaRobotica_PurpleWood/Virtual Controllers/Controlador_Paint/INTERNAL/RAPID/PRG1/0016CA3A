@@ -1,0 +1,8 @@
+MODULE pntexstart
+    PROC ExStartReset()
+
+    ENDPROC
+    PROC WaitExStart()
+        WaitTime 0.1;
+    ENDPROC
+ENDMODULE

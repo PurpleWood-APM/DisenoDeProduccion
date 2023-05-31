@@ -1,0 +1,11 @@
+MODULE custmain
+    PROC PreMainCustom()
+
+    ENDPROC
+    PROC InitCustMain()
+
+    ENDPROC
+    PROC PostMainCustom()
+
+    ENDPROC
+ENDMODULE

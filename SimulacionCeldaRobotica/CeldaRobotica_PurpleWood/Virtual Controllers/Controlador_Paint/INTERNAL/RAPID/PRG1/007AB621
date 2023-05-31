@@ -1,0 +1,3 @@
+MODULE CalibData
+    PERS tooldata TCP_TOOL:=[TRUE,[[0,0,200],[0.965925826,0,0.258819045,0]],[0.25,[0,0,1],[1,0,0,0],0,0,0]];
+ENDMODULE
